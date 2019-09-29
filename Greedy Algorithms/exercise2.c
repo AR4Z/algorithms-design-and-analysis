@@ -21,8 +21,8 @@ int cuantasVecesEsta(char cadena[], int n, char subCadena[], int m) {
 }
 
 int main() {
-    char cadena[16] = "LA RISA PISA";
+    char cadena[12] = "LA RISA PISA";
     char subCadena[3] = "ISA";
 
-    printf("%d", cuantasVecesEsta(cadena, 12, subCadena, 3));
+    printf("%d", cuantasVecesEsta(cadena, 12, subCadena, 1));
 }
