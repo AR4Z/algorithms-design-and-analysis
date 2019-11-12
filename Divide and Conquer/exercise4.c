@@ -17,9 +17,10 @@ int ceroi(int i, int f, int vec[]) {
             }
         }
     }
+    return -1;
 }
 
 void main() {
-    int vec[] = {1, 0};
-    printf("%d", ceroi(0, 1, vec));
+    int vec[] = {1, 1, 1, 1, 1};
+    printf("%d", ceroi(0, 4, vec));
 }
